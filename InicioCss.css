@@ -1,0 +1,11 @@
+#cabeceraPrincipal{
+    background-color: black;
+}
+
+#logo{
+    object-fit: cover;
+}
+
+#nombre{
+    text-align: center;
+}
