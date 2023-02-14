@@ -10,7 +10,7 @@ header {
 	height: 90px;
 	background-color: white;
 	align-items: center;
-	padding: 18px;
+	padding: 10px;
 }
 
 .cabecera {
@@ -19,8 +19,31 @@ header {
 
 .cabecera img {
 	height: 70px;
+	margin-right: 0;
+	width: 100px;
 }
 
 .cabecera h1 {
 	color: black;
 }
+
+a{
+	text-decoration: none;
+	color: black;
+	margin-right: 10px;
+}
+
+div h1{
+	text-align: center;
+	color: black;
+}
+
+hr{
+height: 5px;
+background-color: black;
+}
+
+div img{
+	width: 60%;
+}
+
