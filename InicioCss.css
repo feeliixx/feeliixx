@@ -38,6 +38,8 @@ div h1 {
   color: black;
 }
 
+/* Barra Horizontal */
+
 hr {
   height: 5px;
   background-color: black;
@@ -54,6 +56,8 @@ div img {
 div p{
   color: white;
 }
+
+/* Footer */
 
 .pie-pagina {
   width: 100%;
@@ -113,6 +117,8 @@ div p{
   padding: 0;
 }
 
+/* Formularios */
+
 .contenedoraFormulario {
   display: flex;
   width: 100%;
@@ -125,7 +131,7 @@ div p{
 .contenedoraFormulario h3{
   color: white;
   display: block;
-  float: rightç;
+  float: right;
 }
 
 .parrafo{
@@ -145,6 +151,8 @@ div p{
   color: black;
 
 }
+
+/* Mapa(Sobre Nosotros) */
 
 iframe {
   width: auto;
@@ -179,6 +187,7 @@ iframe {
   color: white;
 }
 
+
 .form-register p {
   height: 40px;
   text-align: center;
@@ -205,3 +214,76 @@ iframe {
   margin: 16px 0;
   font-size: 16px;
 }
+
+/* CSS Grid (Galería y Habitaciones) */
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  background-color: #0d2033;
+}
+
+.child-page-listing h2{
+  text-align: center;
+}
+
+/* hover styles */
+.location-listing {
+  position: relative;
+  margin: 20px;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  width: max-content;
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: salmon;
+  color: white;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
+
+.grid-container h3{
+  color: white;
+  display: inline;
+  height: 40px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+/* ideas --> En Galería poner ubicaciones de lugares , que redireccionen a habitaciones 
+             En Habitaciones , dividir por ubicaciones y poner fotos de habitaciones de cada
+             ubicacion , cada una redirrecionando a reserva */
