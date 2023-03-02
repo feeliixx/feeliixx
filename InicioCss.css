@@ -74,7 +74,7 @@ div p{
   padding: 45px 0px;
 }
 
-.pie-pagina .grupo-1 .box figure {
+.pie-pagina .grupo-1 .caja figure {
   width: 80%;
   height: 75%;
   display: flex;
@@ -82,17 +82,17 @@ div p{
   align-items: center;
 }
 
-.pie-pagina .grupo-1 .box figure img {
+.pie-pagina .grupo-1 .caja figure img {
   width: 250px;
 }
 
-.pie-pagina .grupo-1 .box h2 {
+.pie-pagina .grupo-1 .caja h2 {
   color: #fff;
   margin-bottom: 25px;
   font-size: 20px;
 }
 
-.pie-pagina .grupo-1 .box p {
+.pie-pagina .grupo-1 .caja p {
   color: #efefef;
   margin-bottom: 10px;
 }
@@ -140,7 +140,7 @@ div p{
   display: block;
 }
 
-.form-register {
+.formulario {
   background-color: white;
   width: 55%;
   padding: 30px;
@@ -159,23 +159,12 @@ iframe {
   height: 350px;
 }
 
-.form-register2 {
-  background-color: white;
-  width: 55%;
-  padding: 30px;
-  margin: 30px;
-  border-radius: 4px;
-  font-family: 'calibri';
-  color: black;
-  float: right;
-}
-
-.form-register h4 {
+.formulario h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
 
-.controls {
+.control {
   width: 100%;
   background: #24303c;
   padding: 10px;
@@ -188,24 +177,24 @@ iframe {
 }
 
 
-.form-register p {
+.formulario p {
   height: 40px;
   text-align: center;
   font-size: 18px;
   line-height: 40px;
 }
 
-.form-register a {
+.formulario a {
   color: white;
   text-decoration: none;
 }
 
-.form-register a:hover {
+.formulario a:hover {
   color: white;
   text-decoration: underline;
 }
 
-.form-register .botons {
+.formulario .botones {
   width: 100%;
   background: #1f53c5;
   border: none;
@@ -217,7 +206,7 @@ iframe {
 
 /* CSS Grid (Galería y Habitaciones) */
 
-.grid-container {
+.grid-contenedor {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -238,6 +227,11 @@ iframe {
 .location-image {
   line-height: 0;
   overflow: hidden;
+}
+
+.separacion{
+  height: 10px;
+  background-color: black;
 }
 
 .location-image img {
@@ -275,7 +269,7 @@ iframe {
   filter: blur(2px);
 }
 
-.grid-container h3{
+.grid-contenedor h3{
   color: white;
   display: inline;
   height: 40px;

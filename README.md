@@ -1,4 +1,4 @@
-### Hi there 👋
+### Esta es mi página para el proyecto de CSS y HTML , probada en un monitor de dimensiones 1366 x 768. Trata sobre un hotel en Manhattan , con 6 enlaces , cabecera , pie de página y algunos otros aspectos.
 
 <!--
 **feeliixx/feeliixx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
